@@ -23,7 +23,7 @@ function doWhileLoop(a) {
   do 
    a.shift()
   while 
-   (a.length > 0 || incrementVariable()) ; 
+   (a.length > 0 || incrementVariable()); 
   return a
 }
   
