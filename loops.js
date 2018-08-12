@@ -21,7 +21,7 @@ function incrementVariable() {
 //
 function doWhileLoop(a) {
   do 
-   a.unshift()
+   a.shift()
   while 
    (a.length > 0 || incrementVariable()) ; 
   return a
