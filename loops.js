@@ -21,9 +21,9 @@ function incrementVariable() {
 //
 function doWhileLoop(a) {
   do 
-   incrementVariable() 
+    
   while 
-   (a.length > 0); 
+   a.length > 0 || incrementVariable(); 
   return a
 }
   
